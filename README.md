@@ -52,7 +52,7 @@ grunt.initConfig({
   kal: {
     compile: {
       files: {
-        'path/to/result.js'': ['path/to/source.kal'], // 1:1 compile
+        'path/to/result.js': ['path/to/source.kal'], // 1:1 compile
         'path/to/another.js': ['path/to/sources/*.kal', 'path/to/more/*.kal'] // compile and concat into single file
       }
     },
@@ -61,7 +61,7 @@ grunt.initConfig({
         bare: true
       },
       files: {
-        'path/to/result.js'': ['path/to/source.kal'], // 1:1 compile
+        'path/to/result.js': ['path/to/source.kal'], // 1:1 compile
         'path/to/another.js': ['path/to/sources/*.kal', 'path/to/more/*.kal'] // compile and concat into single file
       }
     }
