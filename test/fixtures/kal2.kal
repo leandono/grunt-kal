@@ -1,0 +1,5 @@
+x = 6
+if x is 5
+  print 'five'
+else
+  print 'not five'
